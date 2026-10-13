@@ -7,19 +7,19 @@ import Preloader from '@/components/Preloader';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Concesionarios Torres | Coches Nuevos, Seminuevos y KM0 en Rabadá',
+    default: 'Concesionarios Torres | Coches Nuevos, Seminuevos y KM0 en Rábade',
     template: '%s | Concesionarios Torres'
   },
-  description: 'Concesionario multimarca de referencia en Rabadá, Galicia. Vehículos nuevos, seminuevos, KM0 y ocasión, taller oficial y financiación a medida.',
-  keywords: ['concesionario', 'coches', 'seminuevos', 'Rabadá', 'Galicia', 'Volkswagen', 'Audi', 'BMW', 'Tesla', 'CUPRA'],
+  description: 'Concesionario multimarca de referencia en Rábade, Galicia. Vehículos nuevos, seminuevos, KM0 y ocasión, taller oficial y financiación a medida.',
+  keywords: ['concesionario', 'coches', 'seminuevos', 'Rábade', 'Galicia', 'Volkswagen', 'Audi', 'BMW', 'Tesla', 'CUPRA'],
   authors: [{ name: 'Concesionarios Torres' }],
   creator: 'Concesionarios Torres',
   openGraph: {
     type: 'website',
     locale: 'es_ES',
     url: 'https://concesionarios-torres.vercel.app',
-    title: 'Concesionarios Torres | Coches Nuevos y Seminuevos en Rabadá',
-    description: 'Concesionario multimarca de referencia en Rabadá, Galicia. Stock premium con garantía oficial.',
+    title: 'Concesionarios Torres | Coches Nuevos y Seminuevos en Rábade',
+    description: 'Concesionario multimarca de referencia en Rábade, Galicia. Stock premium con garantía oficial.',
     siteName: 'Concesionarios Torres',
     images: [
       {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Concesionarios Torres | Coches Nuevos y Seminuevos',
-    description: 'Concesionario multimarca de referencia en Rabadá, Galicia',
+    description: 'Concesionario multimarca de referencia en Rábade, Galicia',
     images: ['https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=80']
   },
   robots: {
@@ -69,7 +69,7 @@ export default function RootLayout({
               "name": "Concesionarios Torres",
               "address": {
                 "@type": "PostalAddress",
-                "addressLocality": "Rabadá",
+                "addressLocality": "Rábade",
                 "addressRegion": "Galicia",
                 "addressCountry": "ES"
               },

@@ -133,7 +133,7 @@ export default function VehicleDetailPage({ params }: PageProps) {
               </div>
               <div className="flex items-center justify-between py-2 border-b border-dark-800/60">
                 <span>Ubicación</span>
-                <span className="text-white font-medium">Concesionario Rabadá</span>
+                <span className="text-white font-medium">Concesionario Rábade</span>
               </div>
             </div>
 

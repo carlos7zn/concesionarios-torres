@@ -19,7 +19,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-sm text-gray-400">
-              Tu referente de confianza en Rabadá (Galicia) para vehículos nuevos, seminuevos, KM0 y ocasión con la máxima garantía y tasación garantizada.
+              Tu referente de confianza en Rábade (Galicia) para vehículos nuevos, seminuevos, KM0 y ocasión con la máxima garantía y tasación garantizada.
             </p>
             <div className="flex items-center space-x-3 pt-2">
               <span className="inline-flex items-center space-x-1 text-xs text-gray-300 bg-dark-800 px-2.5 py-1 rounded-full border border-dark-700">
@@ -80,7 +80,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-brand-red flex-shrink-0" />
-                <span>Rabadá, Galicia, España</span>
+                <span>Rábade, Galicia, España</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-brand-red flex-shrink-0" />

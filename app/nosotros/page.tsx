@@ -10,7 +10,7 @@ export default function NosotrosPage() {
         <span className="text-xs uppercase tracking-widest text-brand-red font-bold mb-2 block">Nuestra Historia</span>
         <h1 className="text-3xl sm:text-5xl font-display font-bold text-white mb-6">Más de 25 Años de Pasión por el Automóvil en Galicia</h1>
         <p className="text-gray-300 text-lg leading-relaxed">
-          Fundada en Rabadá, Concesionarios Torres se ha consolidado como el concesionario de referencia gracias a nuestro compromiso inquebrantable con la calidad, la transparencia y la atención cercana al cliente.
+          Fundada en Rábade, Concesionarios Torres se ha consolidado como el concesionario de referencia gracias a nuestro compromiso inquebrantable con la calidad, la transparencia y la atención cercana al cliente.
         </p>
       </div>
 

@@ -42,7 +42,7 @@ export default function Home() {
     },
     {
       q: '¿Cómo funciona la tasación de mi coche actual si quiero entregarlo como parte de pago?',
-      a: 'Es muy sencillo. Puedes rellenar nuestro formulario online con la matrícula y los kilómetros, o visitarnos en Rabadá. Tasamos tu vehículo en el acto al mejor valor de mercado y lo descontamos directamente de tu nuevo coche.'
+      a: 'Es muy sencillo. Puedes rellenar nuestro formulario online con la matrícula y los kilómetros, o visitarnos en Rábade. Tasamos tu vehículo en el acto al mejor valor de mercado y lo descontamos directamente de tu nuevo coche.'
     },
     {
       q: '¿Realizáis entregas de vehículos a domicilio en toda España?',
@@ -73,7 +73,7 @@ export default function Home() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center space-x-2 bg-dark-900/90 border border-dark-800 backdrop-blur-md px-3.5 py-1.5 rounded-full text-xs font-semibold text-brand-red mb-6 uppercase tracking-widest shadow-xl">
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Concesionario de Referencia en Rabadá, Galicia</span>
+              <span>Concesionario de Referencia en Rábade, Galicia</span>
             </div>
 
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-display font-bold text-white tracking-tight leading-[1.1] mb-6">
@@ -264,7 +264,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
-            { step: '01', title: 'Elige tu vehículo', desc: 'Explora nuestro stock online o ven a visitarnos a nuestras instalaciones en Rabadá.' },
+            { step: '01', title: 'Elige tu vehículo', desc: 'Explora nuestro stock online o ven a visitarnos a nuestras instalaciones en Rábade.' },
             { step: '02', title: 'Pruébalo sin compromiso', desc: 'Agenda una prueba de conducción en carretera con uno de nuestros asesores expertos.' },
             { step: '03', title: 'Financiación a medida', desc: 'Calcula tu cuota y obtén aprobación en menos de 24 horas con condiciones preferentes.' },
             { step: '04', title: 'Entrega en casa o concesionario', desc: 'Llévate tu coche totalmente revisado, matriculado y listo para disfrutar.' },
@@ -506,7 +506,7 @@ export default function Home() {
             {[
               { name: 'Alejandro G.', role: 'Cliente de Ourense', text: 'Compré un CUPRA Formentor seminuevo y el trato fue exquisito desde el primer minuto. Rapidez en la financiación y el coche impecable.', stars: 5 },
               { name: 'María Dolores V.', role: 'Cliente de Lugo', text: 'Excelente servicio de taller y postventa. Me atendieron de urgencia un sábado y solucionaron el problema con total profesionalidad.', stars: 5 },
-              { name: 'Roberto M.', role: 'Cliente de Rabadá', text: 'Tasaron mi antiguo coche al mejor precio del mercado y en menos de 24 horas ya estaba estrenando mi nuevo Audi Q3. 100% recomendable.', stars: 5 },
+              { name: 'Roberto M.', role: 'Cliente de Rábade', text: 'Tasaron mi antiguo coche al mejor precio del mercado y en menos de 24 horas ya estaba estrenando mi nuevo Audi Q3. 100% recomendable.', stars: 5 },
             ].map((test, idx) => (
               <div key={idx} className="bg-dark-950 border border-dark-800 p-8 rounded-2xl flex flex-col justify-between">
                 <div>
@@ -561,7 +561,7 @@ export default function Home() {
           <span className="text-xs uppercase tracking-widest text-brand-red font-bold mb-2 block">Estrena Hoy</span>
           <h2 className="text-3xl sm:text-5xl font-display font-bold text-white mb-6">¿Listo para Estrenar Coche?</h2>
           <p className="text-gray-300 text-base mb-10 max-w-2xl mx-auto">
-            Visítanos en Rabadá o contáctanos ahora mismo por WhatsApp o teléfono. Nuestros asesores te esperan.
+            Visítanos en Rábade o contáctanos ahora mismo por WhatsApp o teléfono. Nuestros asesores te esperan.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <Link 

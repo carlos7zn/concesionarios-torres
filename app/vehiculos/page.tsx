@@ -42,7 +42,7 @@ export default function VehiculosPage() {
         <span className="text-xs uppercase tracking-widest text-brand-red font-bold mb-2 block">Catálogo Oficial</span>
         <h1 className="text-3xl sm:text-5xl font-display font-bold text-white mb-3">Encuentra Tu Vehículo Ideal</h1>
         <p className="text-gray-400 text-sm max-w-2xl">
-          Explora nuestro stock certificado en Rabadá. Todos nuestros vehículos incluyen garantía oficial, revisión rigurosa y opción de financiación a medida.
+          Explora nuestro stock certificado en Rábade. Todos nuestros vehículos incluyen garantía oficial, revisión rigurosa y opción de financiación a medida.
         </p>
       </div>
 

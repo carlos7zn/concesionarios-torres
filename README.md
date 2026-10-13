@@ -1,6 +1,6 @@
 # Concesionarios Torres
 
-Sitio web oficial y plataforma digital para **Concesionarios Torres**, concesionario multimarca de referencia en Rabadá (Galicia).
+Sitio web oficial y plataforma digital para **Concesionarios Torres**, concesionario multimarca de referencia en Rábade (Galicia).
 
 ## Stack Tecnológico
 

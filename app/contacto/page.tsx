@@ -13,7 +13,7 @@ export default function ContactoPage() {
         <span className="text-xs uppercase tracking-widest text-brand-red font-bold mb-2 block">Estamos a tu Disposición</span>
         <h1 className="text-3xl sm:text-5xl font-display font-bold text-white mb-4">Contacto y Ubicación</h1>
         <p className="text-gray-300 text-base leading-relaxed">
-          Visítanos en nuestras instalaciones en Rabadá (Galicia) o envíanos tus consultas a través del formulario o WhatsApp. Te atenderemos de inmediato.
+          Visítanos en nuestras instalaciones en Rábade (Galicia) o envíanos tus consultas a través del formulario o WhatsApp. Te atenderemos de inmediato.
         </p>
       </div>
 
@@ -29,7 +29,7 @@ export default function ContactoPage() {
                 <MapPin className="w-5 h-5 text-brand-red flex-shrink-0 mt-0.5" />
                 <div>
                   <strong className="text-white block">Ubicación</strong>
-                  <span>Rabadá, Galicia, España</span>
+                  <span>Rábade, Galicia, España</span>
                 </div>
               </li>
               <li className="flex items-start space-x-3">

@@ -41,7 +41,7 @@ export default function VendeTuCochePage() {
                 <CheckCircle2 className="w-5 h-5 text-brand-red flex-shrink-0 mt-0.5" />
                 <div>
                   <strong className="text-white block">3. Revisión presencial y pago inmediato</strong>
-                  <span>Revisamos el coche en nuestras instalaciones de Rabadá y formalizamos el pago en el acto.</span>
+                  <span>Revisamos el coche en nuestras instalaciones de Rábade y formalizamos el pago en el acto.</span>
                 </div>
               </li>
             </ul>
