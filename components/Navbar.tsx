@@ -41,6 +41,7 @@ export default function Navbar() {
             <Link href="/vende-tu-coche" className="hover:text-white transition-colors">Vende tu Coche</Link>
             <Link href="/taller" className="hover:text-white transition-colors">Taller y Postventa</Link>
             <Link href="/nosotros" className="hover:text-white transition-colors">Nosotros</Link>
+            <Link href="/quiz" className="hover:text-white transition-colors">Quiz</Link>
             <Link href="/contacto" className="hover:text-white transition-colors">Contacto</Link>
           </nav>
 
@@ -112,6 +113,13 @@ export default function Navbar() {
             className="block text-lg font-medium text-gray-200 hover:text-brand-red transition-colors"
           >
             Nosotros
+          </Link>
+          <Link 
+            href="/quiz" 
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-lg font-medium text-gray-200 hover:text-brand-red transition-colors"
+          >
+            Quiz
           </Link>
           <Link 
             href="/contacto" 

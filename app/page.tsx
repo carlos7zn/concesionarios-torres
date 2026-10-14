@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 import { vehicles, brandsList } from '@/data/vehicles';
 import VehicleCard from '@/components/VehicleCard';
 import { 
@@ -527,7 +528,42 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 15. Preguntas Frecuentes (FAQ) */}
+            {/* Quiz CTA Section */}
+            <section className="py-20 bg-gradient-to-br from-dark-900/50 to-dark-950 border-t border-dark-800">
+              <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <div className="bg-gradient-to-r from-brand-red/10 to-transparent border border-brand-red/30 rounded-3xl p-8 md:p-12 relative overflow-hidden">
+                  <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-from)_0%,_transparent_70%)] opacity-30" />
+                  <div className="relative z-10">
+                    <motion.div
+                      initial={{ scale: 0.8, opacity: 0 }}
+                      animate={{ scale: 1, opacity: 1 }}
+                      transition={{ duration: 0.6, delay: 0.2 }}
+                      className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-brand-red/20 mb-6"
+                    >
+                      <Award className="w-10 h-10 text-brand-red" />
+                    </motion.div>
+                    <h2 className="font-display font-bold text-3xl md:text-4xl mb-4 text-white">
+                      ¿Cuánto sabes de coches?
+                    </h2>
+                    <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto">
+                      Pon a prueba tus conocimientos de cultura del motor con nuestro quiz interactivo.
+                      8 preguntas, explicaciones al instante y tu puntuación final.
+                    </p>
+                    <motion.a
+                      href="/quiz"
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.98 }}
+                      className="inline-flex items-center space-x-3 bg-brand-red hover:bg-brand-redHover text-white px-8 py-4 rounded-2xl font-medium text-lg transition-all shadow-xl shadow-brand-red/30"
+                    >
+                      <span>Empezar Quiz</span>
+                      <ArrowRight className="w-6 h-6" />
+                    </motion.a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* 15. Preguntas Frecuentes (FAQ) */}
       <section className="py-20 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <span className="text-xs uppercase tracking-widest text-brand-red font-bold mb-2 block">Dudas Resueltas</span>
