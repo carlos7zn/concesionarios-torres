@@ -18,6 +18,7 @@ export interface Vehicle {
   description: string;
   features: string[];
   featured?: boolean;
+  vehicleClass: 'suv' | 'deportivo' | 'compacto' | 'familiar';
 }
 
 export const vehicles: Vehicle[] = [
@@ -36,14 +37,15 @@ export const vehicles: Vehicle[] = [
     hp: 245,
     badge: 'Seminuevo',
     ecoLabel: 'ECO',
-    image: 'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/cupra.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1617814076367-b759c7d7e738?auto=format&fit=crop&w=1200&q=80',
-      'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1200&q=80',
+      '/images/cupra.jpg',
+      '/images/audi.jpg',
     ],
     description: 'Diseño radical, dinamismo excepcional y tecnología híbrida enchufable con etiqueta ECO. Revisiones oficiales en servicio oficial.',
     features: ['Digital Cockpit', 'Asientos deportivos bucket', 'Cámara 360º', 'Llantas de 19\" copper', 'Faros Full LED Matrix'],
-    featured: true
+    featured: true,
+    vehicleClass: 'deportivo'
   },
   {
     id: '2',
@@ -60,13 +62,14 @@ export const vehicles: Vehicle[] = [
     hp: 514,
     badge: 'Ocasión',
     ecoLabel: '0',
-    image: 'https://images.unsplash.com/photo-1619767886558-efdc259cde1b?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/tesla.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1619767886558-efdc259cde1b?auto=format&fit=crop&w=1200&q=80',
+      '/images/tesla.jpg',
     ],
     description: 'Autonomía superior a 500 km, tracción total inteligente y espacio líder en su categoría. Etiqueta Cero emisiones.',
     features: ['Autopilot básico', 'Techo de cristal panorámico', 'Sonido premium 14 altavoces', 'Asientos calefactados'],
-    featured: true
+    featured: true,
+    vehicleClass: 'suv'
   },
   {
     id: '3',
@@ -82,13 +85,14 @@ export const vehicles: Vehicle[] = [
     hp: 150,
     badge: 'Seminuevo',
     ecoLabel: 'C',
-    image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/audi.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?auto=format&fit=crop&w=1200&q=80',
+      '/images/audi.jpg',
     ],
     description: 'Elegancia coupé y versatilidad SUV. Paquete S line exterior e interior, impecable estado.',
     features: ['Audi Virtual Cockpit plus', 'MMI Navegación plus', 'Portón maletero eléctrico', 'Sensores de aparcamiento con APS'],
-    featured: true
+    featured: true,
+    vehicleClass: 'suv'
   },
   {
     id: '4',
@@ -104,13 +108,14 @@ export const vehicles: Vehicle[] = [
     hp: 245,
     badge: 'Seminuevo',
     ecoLabel: 'C',
-    image: 'https://images.unsplash.com/photo-1622227922714-ed25612f0e0c?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/golf.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1622227922714-ed25612f0e0c?auto=format&fit=crop&w=1200&q=80',
+      '/images/golf.jpg',
     ],
     description: 'El icono de los compactos deportivos. Máximo deportivismo con la versatilidad diaria del Golf.',
     features: ['Escape deportivo', 'Faros IQ.Light Matrix LED', 'Suspensión adaptativa DCC', 'Head-up Display'],
-    featured: true
+    featured: true,
+    vehicleClass: 'deportivo'
   },
   {
     id: '5',
@@ -126,13 +131,14 @@ export const vehicles: Vehicle[] = [
     hp: 218,
     badge: 'Seminuevo',
     ecoLabel: 'ECO',
-    image: 'https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/rav4.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1590362891991-f776e747a588?auto=format&fit=crop&w=1200&q=80',
+      '/images/rav4.jpg',
     ],
     description: 'Fiabilidad legendaria Toyota, consumos mínimos en ciudad y gran habitabilidad familiar.',
     features: ['Toyota Safety Sense', 'Cámara de visión trasera', 'Pantalla multimedia 10.5\"', 'Acceso y arranque sin llave'],
-    featured: false
+    featured: false,
+    vehicleClass: 'suv'
   },
   {
     id: '6',
@@ -148,13 +154,14 @@ export const vehicles: Vehicle[] = [
     hp: 190,
     badge: 'Ocasión',
     ecoLabel: 'ECO',
-    image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/bmw.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1200&q=80',
+      '/images/bmw.jpg',
     ],
     description: 'Familiar deportivo por excelencia. Paquete aerodinámico M y excelente eficiencia en viajes largos.',
     features: ['Paquete M Sport', 'BMW Live Cockpit Professional', 'Techo solar panorámico', 'Faros Laserlight'],
-    featured: true
+    featured: true,
+    vehicleClass: 'familiar'
   },
   {
     id: '7',
@@ -170,13 +177,14 @@ export const vehicles: Vehicle[] = [
     hp: 218,
     badge: 'KM0',
     ecoLabel: '0',
-    image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/mercedes.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?auto=format&fit=crop&w=1200&q=80',
+      '/images/mercedes.jpg',
     ],
     description: 'Lujo compacto con tecnología híbrida avanzada. MBUX con inteligencia artificial y hasta 70km en eléctrico.',
     features: ['MBUX Superscreen', 'Paquete AMG Line', 'Iluminación ambiental 64 colores', 'Realidad aumentada para navegación'],
-    featured: false
+    featured: false,
+    vehicleClass: 'compacto'
   },
   {
     id: '8',
@@ -192,13 +200,14 @@ export const vehicles: Vehicle[] = [
     hp: 230,
     badge: 'Seminuevo',
     ecoLabel: 'ECO',
-    image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80',
+    image: '/images/tucson.jpg',
     gallery: [
-      'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=1200&q=80',
+      '/images/tucson.jpg',
     ],
     description: 'El SUV más vendido con diseño vanguardista, confort sobresaliente y etiqueta ECO.',
     features: ['Cámara de ángulo muerto', 'Asistente de mantenimiento de carril', 'Cargador inalámbrico', 'Apple CarPlay / Android Auto'],
-    featured: false
+    featured: false,
+    vehicleClass: 'suv'
   }
 ];
 

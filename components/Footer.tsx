@@ -1,5 +1,12 @@
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Clock, MessageSquare, ShieldCheck, Award } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, MessageSquare, ShieldCheck, Award, Facebook, Instagram, Twitter, Music } from 'lucide-react';
+
+const socialLinks = [
+  { name: 'Facebook', icon: Facebook, href: '#' },
+  { name: 'Instagram', icon: Instagram, href: '#' },
+  { name: 'X (Twitter)', icon: Twitter, href: '#' },
+  { name: 'TikTok', icon: Music, href: '#' },
+];
 
 export default function Footer() {
   return (
@@ -88,7 +95,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-brand-red flex-shrink-0" />
-                <a href="mailto:carlos.torresgarcia@a.iesriomino.gal" className="hover:text-white transition-colors truncate">carlos.torresgarcia@a.iesriomino.gal</a>
+                <a href="mailto:info@concesionariostorres.es" className="hover:text-white transition-colors truncate">info@concesionariostorres.es</a>
               </li>
             </ul>
             <div className="mt-5">
@@ -101,6 +108,23 @@ export default function Footer() {
                 <MessageSquare className="w-4 h-4" />
                 <span>Abrir Chat de WhatsApp</span>
               </a>
+            </div>
+            <div className="mt-5 flex space-x-3">
+              {socialLinks.map((social) => {
+                const Icon = social.icon;
+                return (
+                  <a
+                    key={social.name}
+                    href={social.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={social.name}
+                    className="w-9 h-9 rounded-lg bg-dark-800 hover:bg-brand-red flex items-center justify-center text-gray-300 hover:text-white transition-colors"
+                  >
+                    <Icon className="w-4 h-4" />
+                  </a>
+                );
+              })}
             </div>
           </div>
 

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_ES',
-    url: 'https://concesionarios-torres.vercel.app',
+    url: 'https://concesionarios-torres-pi.vercel.app',
     title: 'Concesionarios Torres | Coches Nuevos y Seminuevos en Rábade',
     description: 'Concesionario multimarca de referencia en Rábade, Galicia. Stock premium con garantía oficial.',
     siteName: 'Concesionarios Torres',
@@ -67,6 +67,8 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "AutoDealer",
               "name": "Concesionarios Torres",
+              "url": "https://concesionarios-torres-pi.vercel.app",
+              "logo": "https://concesionarios-torres-pi.vercel.app/images/hero.jpg",
               "address": {
                 "@type": "PostalAddress",
                 "addressLocality": "Rábade",
@@ -74,7 +76,7 @@ export default function RootLayout({
                 "addressCountry": "ES"
               },
               "telephone": "+34986000000",
-              "email": "carlos.torresgarcia@a.iesriomino.gal",
+              "email": "info@concesionariostorres.es",
               "openingHoursSpecification": [
                 {
                   "@type": "OpeningHoursSpecification",
@@ -95,7 +97,59 @@ export default function RootLayout({
                   "closes": "14:00"
                 }
               ],
-              "areaServed": "Galicia"
+              "areaServed": "Galicia",
+              "priceRange": "€€"
+            })
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "¿Qué garantía incluyen los vehículos seminuevos y de ocasión?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Todos nuestros vehículos seminuevos, KM0 y de ocasión cuentan con una garantía oficial de hasta 36 meses, además de haber superado una certificación rigurosa de más de 100 puntos en nuestro taller."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Puedo financiar la compra de mi coche sin entrada?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sí, ofrecemos soluciones de financiación flexible 100% a medida, pudiendo financiar el importe total o parcial con cuotas adaptadas a tus necesidades y respuesta en menos de 24 horas."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Cómo funciona la tasación de mi coche actual si quiero entregarlo como parte de pago?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Es muy sencillo. Puedes rellenar nuestro formulario online con la matrícula y los kilómetros, o visitarnos en Rábade. Tasamos tu vehículo en el acto y lo descontamos directamente de tu nuevo coche."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Realizáis entregas de vehículos a domicilio en toda España?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Sí, disponemos de un servicio de transporte especializado para entregar tu nuevo vehículo directamente en la puerta de tu casa en cualquier punto de la península."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "¿Cuál es el horario de atención y del taller postventa?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nuestro horario comercial es de lunes a viernes de 9:00 a 14:00 y de 16:00 a 20:00, y sábados de 10:00 a 14:00. El taller abre de lunes a viernes de 8:00 a 18:00."
+                  }
+                }
+              ]
             })
           }}
         />
