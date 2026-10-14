@@ -138,6 +138,7 @@ export default function Footer() {
                     <Link href="/contacto" className="hover:text-gray-400 transition-colors">Aviso Legal</Link>
                     <Link href="/contacto" className="hover:text-gray-400 transition-colors">Política de Privacidad</Link>
                     <Link href="/contacto" className="hover:text-gray-400 transition-colors">Política de Cookies</Link>
+            <Link href="/creditos-imagenes" className="hover:text-gray-400 transition-colors text-xs">Créditos de Imágenes</Link>
                   </div>
                   <div className="hidden sm:block text-sm text-gray-400">
                     <span>Eres el visitante nº <span id="visitor-count">0</span></span>
