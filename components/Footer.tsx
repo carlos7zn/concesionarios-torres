@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Phone, Mail, MapPin, Clock, MessageSquare, ShieldCheck, Award } from 'lucide-react';
 import { FaFacebookF, FaInstagram, FaXTwitter, FaTiktok } from 'react-icons/fa6';
+import VisitCounter from '@/components/VisitCounter';
 
 const socialLinks = [
   { name: 'Facebook', icon: FaFacebookF, href: '#' },
@@ -141,7 +142,7 @@ export default function Footer() {
             <Link href="/creditos-imagenes" className="hover:text-gray-400 transition-colors text-xs">Créditos de Imágenes</Link>
                   </div>
                   <div className="hidden sm:block text-sm text-gray-400">
-                    <span>Eres el visitante nº <span id="visitor-count">0</span></span>
+                    <VisitCounter />
                   </div>
                 </div>
               </div>
