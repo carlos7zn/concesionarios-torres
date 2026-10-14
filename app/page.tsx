@@ -61,7 +61,7 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-12 pb-20">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=2000&q=90" 
+            src="/images/hero.jpg" 
             alt="Concesionarios Torres Hero" 
             className="w-full h-full object-cover object-center scale-105 animate-pulse duration-[10000ms]"
           />
@@ -227,12 +227,12 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: 'Nuevos y KM0', subtitle: 'A estrenar con entrega inmediata', image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=80', badge: 'KM0' },
-              { title: 'Seminuevos y Ocasión', subtitle: 'Certificados y revisados 100%', image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80', badge: 'Garantía' },
-              { title: 'Eléctricos e Híbridos', subtitle: 'Etiqueta ECO y Cero emisiones', image: 'https://images.unsplash.com/photo-1619767886558-efdc259cde1b?auto=format&fit=crop&w=800&q=80', badge: 'ECO / 0' },
-              { title: 'SUV & Crossovers', subtitle: 'Espacio, polivalencia y diseño', image: 'https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?auto=format&fit=crop&w=800&q=80', badge: 'Popular' },
-              { title: 'Deportivos & Compactos', subtitle: 'Emoción y dinamismo al volante', image: 'https://images.unsplash.com/photo-1622227922714-ed25612f0e0c?auto=format&fit=crop&w=800&q=80', badge: 'GTI' },
-              { title: 'Berlinas & Familiares', subtitle: 'Confort superior en viajes largos', image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=800&q=80', badge: 'Confort' },
+              { title: 'Nuevos y KM0', subtitle: 'A estrenar con entrega inmediata', image: '/images/vehicles/cupra-formentor-vz-hybrid/01_front.jpg', badge: 'KM0' },
+              { title: 'Seminuevos y Ocasión', subtitle: 'Certificados y revisados 100%', image: '/images/vehicles/toyota-rav4-hybrid/01.jpg', badge: 'Garantía' },
+              { title: 'Eléctricos e Híbridos', subtitle: 'Etiqueta ECO y Cero emisiones', image: '/images/vehicles/tesla-model-y-long-range/01.jpg', badge: 'ECO / 0' },
+              { title: 'SUV & Crossovers', subtitle: 'Espacio, polivalencia y diseño', image: '/images/vehicles/bmw-serie-3-320d/01.jpg', badge: 'Popular' },
+              { title: 'Deportivos & Compactos', subtitle: 'Emoción y dinamismo al volante', image: '/images/vehicles/volkswagen-golf-gti/01.jpg', badge: 'GTI' },
+              { title: 'Berlinas & Familiares', subtitle: 'Confort superior en viajes largos', image: '/images/vehicles/bmw-serie-3-320d/01.jpg', badge: 'Confort' },
             ].map((cat, idx) => (
               <Link key={idx} href="/vehiculos" className="group relative h-72 rounded-2xl overflow-hidden block shadow-xl border border-dark-800">
                 <img src={cat.image} alt={cat.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
@@ -388,7 +388,7 @@ export default function Home() {
       <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-r from-dark-900 to-dark-800 border border-dark-700 p-8 sm:p-12 rounded-3xl relative overflow-hidden shadow-2xl">
           <div className="absolute right-0 top-0 bottom-0 w-1/2 opacity-20 hidden lg:block pointer-events-none">
-            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1000&q=80" alt="Car" className="w-full h-full object-cover" />
+            <img src="/images/hero.jpg" alt="Car" className="w-full h-full object-cover" />
           </div>
 
           <div className="max-w-2xl relative z-10">
@@ -456,7 +456,7 @@ export default function Home() {
       <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 relative h-[400px] rounded-3xl overflow-hidden shadow-2xl border border-dark-800">
-            <img src="https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=1000&q=80" alt="Taller Torres" className="w-full h-full object-cover" />
+            <img src="/images/taller.jpg" alt="Taller Torres" className="w-full h-full object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-transparent to-transparent"></div>
           </div>
 
