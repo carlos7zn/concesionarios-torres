@@ -36,7 +36,7 @@ export default function ContactoPage() {
                 <Phone className="w-5 h-5 text-brand-red flex-shrink-0 mt-0.5" />
                 <div>
                   <strong className="text-white block">Teléfono / WhatsApp</strong>
-                  <a href="tel:34986000000" className="hover:text-white transition-colors">+34 986 000 000</a>
+                  <a href="tel:+34986000000" className="hover:text-white transition-colors">+34 986 000 000</a>
                 </div>
               </li>
               <li className="flex items-start space-x-3">

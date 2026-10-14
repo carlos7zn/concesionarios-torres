@@ -102,13 +102,13 @@ export const vehicles: Vehicle[] = [
     fuel: 'Gasolina',
     transmission: 'Automático',
     hp: 245,
-    badge: 'KM0',
+    badge: 'Seminuevo',
     ecoLabel: 'C',
     image: 'https://images.unsplash.com/photo-1622227922714-ed25612f0e0c?auto=format&fit=crop&w=1200&q=80',
     gallery: [
       'https://images.unsplash.com/photo-1622227922714-ed25612f0e0c?auto=format&fit=crop&w=1200&q=80',
     ],
-    description: 'El icono de los compactos deportivos. Máxima deportivismo con la versatilidad diaria del Golf.',
+    description: 'El icono de los compactos deportivos. Máximo deportivismo con la versatilidad diaria del Golf.',
     features: ['Escape deportivo', 'Faros IQ.Light Matrix LED', 'Suspensión adaptativa DCC', 'Head-up Display'],
     featured: true
   },
