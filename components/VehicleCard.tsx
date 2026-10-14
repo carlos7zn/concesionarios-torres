@@ -11,7 +11,7 @@ export default function VehicleCard({ vehicle }: VehicleCardProps) {
     <div className="bg-dark-900 border border-dark-800 rounded-2xl overflow-hidden group hover:border-brand-red/50 transition-all duration-300 flex flex-col shadow-xl hover:shadow-2xl hover:shadow-brand-red/10">
       
       {/* Image Container */}
-      <div className="relative h-60 w-full overflow-hidden bg-dark-800">
+      <div className="relative h-full w-full overflow-hidden bg-dark-800">
         <img 
           src={vehicle.image} 
           alt={`${vehicle.brand} ${vehicle.model}`} 
@@ -20,23 +20,23 @@ export default function VehicleCard({ vehicle }: VehicleCardProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-dark-950/80 via-transparent to-transparent opacity-60"></div>
         
         {/* Badges */}
-        <div className="absolute top-4 left-4 flex gap-2">
+        <div className="absolute bottom-4 left-4 right-4 flex flex-wrap gap-2">
           <span className="bg-brand-red text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider shadow-lg">
             {vehicle.badge}
           </span>
           <span className="bg-dark-950/80 backdrop-blur-md text-white text-xs font-bold px-2.5 py-1 rounded-full border border-dark-700">
             Etiqueta {vehicle.ecoLabel}
+                          {vehicle.year}
           </span>
         </div>
 
         {/* Year */}
         <div className="absolute top-4 right-4 bg-dark-950/80 backdrop-blur-md text-gray-300 text-xs font-semibold px-2.5 py-1 rounded-full border border-dark-700">
-          {vehicle.year}
         </div>
       </div>
 
       {/* Content */}
-      <div className="p-6 flex flex-col flex-grow justify-between">
+      <div className="p-6 flex flex-col justify-between mt-0">
         <div>
           <div className="text-xs uppercase tracking-widest text-brand-red font-bold mb-1">
             {vehicle.brand}
@@ -55,7 +55,7 @@ export default function VehicleCard({ vehicle }: VehicleCardProps) {
           <div className="grid grid-cols-3 gap-2 py-3 border-t border-b border-dark-800 mb-6 text-xs text-gray-300">
             <div className="flex items-center space-x-1.5">
               <Gauge className="w-4 h-4 text-brand-red flex-shrink-0" />
-              <span>{vehicle.km.toLocaleString()} km</span>
+              <span className="whitespace-nowrap">{vehicle.km.toLocaleString()} km</span>
             </div>
             <div className="flex items-center space-x-1.5">
               <Fuel className="w-4 h-4 text-brand-red flex-shrink-0" />
