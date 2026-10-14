@@ -1,11 +1,12 @@
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Clock, MessageSquare, ShieldCheck, Award, Facebook, Instagram, Twitter, Music } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, MessageSquare, ShieldCheck, Award } from 'lucide-react';
+import { FaFacebookF, FaInstagram, FaXTwitter, FaTiktok } from 'react-icons/fa6';
 
 const socialLinks = [
-  { name: 'Facebook', icon: Facebook, href: '#' },
-  { name: 'Instagram', icon: Instagram, href: '#' },
-  { name: 'X (Twitter)', icon: Twitter, href: '#' },
-  { name: 'TikTok', icon: Music, href: '#' },
+  { name: 'Facebook', icon: FaFacebookF, href: '#' },
+  { name: 'Instagram', icon: FaInstagram, href: '#' },
+  { name: 'X (Twitter)', icon: FaXTwitter, href: '#' },
+  { name: 'TikTok', icon: FaTiktok, href: '#' },
 ];
 
 export default function Footer() {
