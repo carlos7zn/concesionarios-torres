@@ -13,4 +13,4 @@
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */let t={name:"arrow-right",size:24,node:[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"m12 5 7 7-7 7",key:"xquz4c"}]]};t.node;let i=(0,r.Z)(t)}};var a=require("../../webpack-runtime.js");a.C(e);var s=e=>a(a.s=e),r=a.X(0,[626,895],()=>s(4206));module.exports=r})();
+ */let t={name:"arrow-right",size:24,node:[["path",{d:"M5 12h14",key:"1ays0h"}],["path",{d:"m12 5 7 7-7 7",key:"xquz4c"}]]};t.node;let i=(0,r.Z)(t)}};var a=require("../../webpack-runtime.js");a.C(e);var s=e=>a(a.s=e),r=a.X(0,[948,433,895],()=>s(4206));module.exports=r})();

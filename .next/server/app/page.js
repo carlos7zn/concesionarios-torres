@@ -38,4 +38,4 @@
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */let r={name:"circle-check",size:24,node:[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m16 9-5.5 5.5L8 12",key:"xofnsj"}]],aliases:["check-circle-2"]};r.node;let l=(0,t.Z)(r)}};var a=require("../webpack-runtime.js");a.C(e);var s=e=>a(a.s=e),t=a.X(0,[626,895],()=>s(7051));module.exports=t})();
+ */let r={name:"circle-check",size:24,node:[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m16 9-5.5 5.5L8 12",key:"xofnsj"}]],aliases:["check-circle-2"]};r.node;let l=(0,t.Z)(r)}};var a=require("../webpack-runtime.js");a.C(e);var s=e=>a(a.s=e),t=a.X(0,[948,433,895],()=>s(7051));module.exports=t})();

@@ -3,4 +3,4 @@
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
- */let t={name:"circle-check",size:24,node:[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m16 9-5.5 5.5L8 12",key:"xofnsj"}]],aliases:["check-circle-2"]};t.node;let o=(0,r.Z)(t)}};var s=require("../../webpack-runtime.js");s.C(e);var a=e=>s(s.s=e),r=s.X(0,[626,895],()=>a(6705));module.exports=r})();
+ */let t={name:"circle-check",size:24,node:[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m16 9-5.5 5.5L8 12",key:"xofnsj"}]],aliases:["check-circle-2"]};t.node;let o=(0,r.Z)(t)}};var s=require("../../webpack-runtime.js");s.C(e);var a=e=>s(s.s=e),r=s.X(0,[948,433,895],()=>a(6705));module.exports=r})();

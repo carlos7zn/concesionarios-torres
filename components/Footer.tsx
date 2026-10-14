@@ -133,14 +133,17 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-dark-800 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 space-y-4 sm:space-y-0">
-          <p>© {new Date().getFullYear()} Concesionarios Torres S.L. Todos los derechos reservados.</p>
-          <div className="flex space-x-6">
-            <Link href="/contacto" className="hover:text-gray-400 transition-colors">Aviso Legal</Link>
-            <Link href="/contacto" className="hover:text-gray-400 transition-colors">Política de Privacidad</Link>
-            <Link href="/contacto" className="hover:text-gray-400 transition-colors">Política de Cookies</Link>
-          </div>
-        </div>
-      </div>
-    </footer>
-  );
-}
+                  <p>© {new Date().getFullYear()} Concesionarios Torres S.L. Todos los derechos reservados.</p>
+                  <div className="flex space-x-6">
+                    <Link href="/contacto" className="hover:text-gray-400 transition-colors">Aviso Legal</Link>
+                    <Link href="/contacto" className="hover:text-gray-400 transition-colors">Política de Privacidad</Link>
+                    <Link href="/contacto" className="hover:text-gray-400 transition-colors">Política de Cookies</Link>
+                  </div>
+                  <div className="hidden sm:block text-sm text-gray-400">
+                    <span>Eres el visitante nº <span id="visitor-count">0</span></span>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          )
+        }
