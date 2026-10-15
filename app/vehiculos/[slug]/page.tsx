@@ -1,4 +1,5 @@
 import { vehicles } from '@/data/vehicles';
+import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { 
@@ -17,6 +18,37 @@ export function generateStaticParams() {
   return vehicles.map((v) => ({
     slug: v.slug,
   }));
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const vehicle = vehicles.find(v => v.slug === params.slug);
+  
+  if (!vehicle) {
+    return { title: 'Vehículo no encontrado' };
+  }
+
+  return {
+    title: `${vehicle.brand} ${vehicle.model} ${vehicle.version} - ${vehicle.price.toLocaleString()} €`,
+    description: `${vehicle.description} ${vehicle.brand} ${vehicle.model} ${vehicle.year} - ${vehicle.km.toLocaleString()} km, ${vehicle.fuel}, ${vehicle.transmission}.`,
+    openGraph: {
+      title: `${vehicle.brand} ${vehicle.model} | Concesionarios Torres`,
+      description: `${vehicle.model} ${vehicle.version} - ${vehicle.price.toLocaleString()} €`,
+      images: [
+        {
+          url: vehicle.image,
+          width: 1200,
+          height: 630,
+          alt: `${vehicle.brand} ${vehicle.model} ${vehicle.version}`
+        }
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${vehicle.brand} ${vehicle.model} ${vehicle.version}`,
+      description: `${vehicle.price.toLocaleString()} € - ${vehicle.km.toLocaleString()} km, ${vehicle.fuel}`,
+      images: [vehicle.image],
+    },
+  };
 }
 
 export default function VehicleDetailPage({ params }: PageProps) {

@@ -1,5 +1,16 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { Award, ShieldCheck, CheckCircle2, Phone, MessageSquare } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: 'Sobre Nosotros',
+  description: 'Concesionarios Torres: +25 años de experiencia en Rábade, Galicia. Especialistas en vehículos nuevos, seminuevos y ocasión. Certificación 100 puntos, garantía 36 meses.',
+  openGraph: {
+    title: 'Sobre Nosotros | Concesionarios Torres',
+    description: '+25 años de trayectoria, certificación rigurosa, garantía oficial y compromiso postventa',
+    images: ['/opengraph-image'],
+  },
+};
 
 export default function NosotrosPage() {
   return (
