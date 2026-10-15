@@ -26,13 +26,12 @@
       "static/chunks/475-274c1e21d539da25.js",
       "static/chunks/app/layout-d5cddab58f6b8f3e.js"
     ],
-    "/financiacion/page": [
+    "/contacto/page": [
       "static/chunks/webpack-91b2d14d0f678b80.js",
       "static/chunks/fd9d1056-00bb33a35b5f8051.js",
       "static/chunks/23-68b493f91180a142.js",
       "static/chunks/main-app-8ee2d8fa02786cfd.js",
-      "static/chunks/946-60e7993b4f1061f8.js",
-      "static/chunks/app/financiacion/page-0b51410e12924518.js"
+      "static/chunks/app/contacto/page-94457faf7484db82.js"
     ],
     "/creditos-imagenes/page": [
       "static/chunks/webpack-91b2d14d0f678b80.js",
@@ -41,12 +40,13 @@
       "static/chunks/main-app-8ee2d8fa02786cfd.js",
       "static/chunks/app/creditos-imagenes/page-948bf625152a6a55.js"
     ],
-    "/contacto/page": [
+    "/financiacion/page": [
       "static/chunks/webpack-91b2d14d0f678b80.js",
       "static/chunks/fd9d1056-00bb33a35b5f8051.js",
       "static/chunks/23-68b493f91180a142.js",
       "static/chunks/main-app-8ee2d8fa02786cfd.js",
-      "static/chunks/app/contacto/page-94457faf7484db82.js"
+      "static/chunks/946-60e7993b4f1061f8.js",
+      "static/chunks/app/financiacion/page-0b51410e12924518.js"
     ],
     "/nosotros/page": [
       "static/chunks/webpack-91b2d14d0f678b80.js",
@@ -75,13 +75,6 @@
       "static/chunks/750-1d418e83d2d431c4.js",
       "static/chunks/app/quiz/page-bba5d9e77db497be.js"
     ],
-    "/taller/page": [
-      "static/chunks/webpack-91b2d14d0f678b80.js",
-      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
-      "static/chunks/23-68b493f91180a142.js",
-      "static/chunks/main-app-8ee2d8fa02786cfd.js",
-      "static/chunks/app/taller/page-678a9daed8b9bffe.js"
-    ],
     "/vehiculos/page": [
       "static/chunks/webpack-91b2d14d0f678b80.js",
       "static/chunks/fd9d1056-00bb33a35b5f8051.js",
@@ -91,6 +84,13 @@
       "static/chunks/173-faf6ef4be16ca035.js",
       "static/chunks/375-e3fdd3486d00c39b.js",
       "static/chunks/app/vehiculos/page-b1210be9d1576c8e.js"
+    ],
+    "/taller/page": [
+      "static/chunks/webpack-91b2d14d0f678b80.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-68b493f91180a142.js",
+      "static/chunks/main-app-8ee2d8fa02786cfd.js",
+      "static/chunks/app/taller/page-678a9daed8b9bffe.js"
     ],
     "/vende-tu-coche/page": [
       "static/chunks/webpack-91b2d14d0f678b80.js",
@@ -113,13 +113,6 @@
       "static/chunks/main-app-8ee2d8fa02786cfd.js",
       "static/chunks/app/cookies/page-be6eb9cd1085dbd7.js"
     ],
-    "/privacidad/page": [
-      "static/chunks/webpack-91b2d14d0f678b80.js",
-      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
-      "static/chunks/23-68b493f91180a142.js",
-      "static/chunks/main-app-8ee2d8fa02786cfd.js",
-      "static/chunks/app/privacidad/page-31208c1fa0364a53.js"
-    ],
     "/revision-imagenes/page": [
       "static/chunks/webpack-91b2d14d0f678b80.js",
       "static/chunks/fd9d1056-00bb33a35b5f8051.js",
@@ -129,6 +122,13 @@
       "static/chunks/173-faf6ef4be16ca035.js",
       "static/chunks/375-e3fdd3486d00c39b.js",
       "static/chunks/app/revision-imagenes/page-53c2ef71151252f6.js"
+    ],
+    "/privacidad/page": [
+      "static/chunks/webpack-91b2d14d0f678b80.js",
+      "static/chunks/fd9d1056-00bb33a35b5f8051.js",
+      "static/chunks/23-68b493f91180a142.js",
+      "static/chunks/main-app-8ee2d8fa02786cfd.js",
+      "static/chunks/app/privacidad/page-31208c1fa0364a53.js"
     ],
     "/vehiculos/[slug]/page": [
       "static/chunks/webpack-91b2d14d0f678b80.js",

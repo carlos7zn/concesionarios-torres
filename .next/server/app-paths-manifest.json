@@ -1,20 +1,22 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/financiacion/page": "app/financiacion/page.js",
-  "/creditos-imagenes/page": "app/creditos-imagenes/page.js",
   "/contacto/page": "app/contacto/page.js",
+  "/creditos-imagenes/page": "app/creditos-imagenes/page.js",
+  "/financiacion/page": "app/financiacion/page.js",
   "/nosotros/page": "app/nosotros/page.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
   "/page": "app/page.js",
   "/quiz/page": "app/quiz/page.js",
-  "/taller/page": "app/taller/page.js",
   "/vehiculos/page": "app/vehiculos/page.js",
+  "/taller/page": "app/taller/page.js",
   "/vende-tu-coche/page": "app/vende-tu-coche/page.js",
-  "/api/visitas/route": "app/api/visitas/route.js",
   "/aviso-legal/page": "app/aviso-legal/page.js",
+  "/api/visitas/route": "app/api/visitas/route.js",
   "/cookies/page": "app/cookies/page.js",
-  "/privacidad/page": "app/privacidad/page.js",
   "/revision-imagenes/page": "app/revision-imagenes/page.js",
+  "/privacidad/page": "app/privacidad/page.js",
   "/vehiculos/[slug]/page": "app/vehiculos/[slug]/page.js",
   "/apple-icon/route": "app/apple-icon/route.js",
-  "/icon/route": "app/icon/route.js"
+  "/icon/route": "app/icon/route.js",
+  "/opengraph-image/route": "app/opengraph-image/route.js"
 }

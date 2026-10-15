@@ -1,9 +1,15 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import Preloader from '@/components/Preloader';
+
+export const viewport: Viewport = {
+  themeColor: '#0A0A0F',
+  width: 'device-width',
+  initialScale: 1,
+}
 
 export const metadata: Metadata = {
   title: {
@@ -15,27 +21,27 @@ export const metadata: Metadata = {
   authors: [{ name: 'Concesionarios Torres' }],
   creator: 'Concesionarios Torres',
   openGraph: {
-      type: 'website',
-      locale: 'es_ES',
-      url: 'https://concesionarios-torres-pi.vercel.app',
-      title: 'Concesionarios Torres | Coches Nuevos y Seminuevos en Rábade',
-      description: 'Concesionario multimarca de referencia en Rábade, Galicia. Stock premium con garantía oficial.',
-      siteName: 'Concesionarios Torres',
-      images: [
-        {
-          url: '/images/og-image.jpg',
-          width: 1200,
-          height: 630,
-          alt: 'Concesionarios Torres - Coches premium'
-        }
-      ]
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: 'Concesionarios Torres | Coches Nuevos y Seminuevos',
-      description: 'Concesionario multimarca de referencia en Rábade, Galicia',
-      images: ['/images/og-image.jpg']
-    },
+        type: 'website',
+        locale: 'es_ES',
+        url: 'https://concesionarios-torres-pi.vercel.app',
+        title: 'Concesionarios Torres | Coches Nuevos y Seminuevos en Rábade',
+        description: 'Concesionario multimarca de referencia en Rábade, Galicia. Stock premium con garantía oficial.',
+        siteName: 'Concesionarios Torres',
+        images: [
+          {
+            url: '/opengraph-image',
+            width: 1200,
+            height: 630,
+            alt: 'Concesionarios Torres - Coches premium'
+          }
+        ]
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: 'Concesionarios Torres | Coches Nuevos y Seminuevos',
+        description: 'Concesionario multimarca de referencia en Rábade, Galicia',
+        images: ['/opengraph-image']
+      },
   robots: {
     index: true,
     follow: true,
